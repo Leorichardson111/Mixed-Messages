@@ -41,9 +41,9 @@ const randomJokes = (goodJkArr, badJkArr, uglyJkArr) => {
     let uglyJokeIndex = (Math.floor(Math.random()* uglyJkArr.length))
 
     console.log("Here is a good joke, a bad joke and an ugly joke:")
-    console.log("Good Joke:" + good[goodJokeIndex])
-    console.log("Bad Joke:" + bad[badJokeIndex])
-    console.log("Good Joke:" + ugly[uglyJokeIndex])
+    console.log("Good Joke: " + good[goodJokeIndex])
+    console.log("Bad Joke: " + bad[badJokeIndex])
+    console.log("Ugly Joke: " + ugly[uglyJokeIndex])
 }
 
 randomJokes(good, bad, ugly)
